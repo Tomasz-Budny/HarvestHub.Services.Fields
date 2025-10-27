@@ -8,10 +8,7 @@ namespace HarvestHub.Shared.Messaging
 
         public static IServiceCollection AddMessaging(this IServiceCollection services)
         {
-            services.AddTransient<IMessageBroker, InMemoryMessageBroker>();
-            services.AddTransient<IAsyncEventDispatcher, AsyncEventDispatcher>();
-            services.AddSingleton<IEventChannel, EventChannel>();
-            services.AddHostedService<EventDispatcherJob>();
+            services.AddTransient<IMessageBroker, MassTransitMessageBroker>();
 
             return services;
         }

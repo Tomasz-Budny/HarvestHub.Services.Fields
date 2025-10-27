@@ -1,4 +1,6 @@
-﻿namespace HarvestHub.Shared.Events
+﻿using MassTransit;
+
+namespace HarvestHub.Shared.Events
 {
     public interface IEventHandler<in TEvent> where TEvent : class, IEvent
     {
