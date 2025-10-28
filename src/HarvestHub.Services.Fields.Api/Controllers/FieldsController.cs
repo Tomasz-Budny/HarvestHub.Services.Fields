@@ -6,10 +6,12 @@ using HarvestHub.Services.Fields.Application.Fields.Dtos;
 using HarvestHub.Services.Fields.Application.Fields.Commands.DeleteField;
 using HarvestHub.Services.Fields.Application.Fields.Commands.PatchFieldDetails;
 using HarvestHub.Shared.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HarvestHub.Services.Fields.Api.Controllers
 {
     [Route("api/fields")]
+    [Authorize]
     public class FieldsController : ApiController
     {
         public FieldsController(ISender sender, IUserContextService userContextService) : base(sender, userContextService) { }

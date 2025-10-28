@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>HarvestHub</Company>
+    <Authors>HarvestHub</Authors>
+    <Title>Harvest Hub Shared Utils</Title>
   </PropertyGroup>
 
   <ItemGroup>
