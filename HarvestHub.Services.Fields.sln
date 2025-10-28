@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Infrastructure", "src\HarvestHub.Services.Fields.Infrastructure\HarvestHub.Services.Fields.Infrastructure.csproj", "{01FC2E13-5C64-2BC0-7BFF-8941C90AF108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Shared", "src\HarvestHub.Services.Fields.Shared\HarvestHub.Services.Fields.Shared.csproj", "{1ABB0C0A-ABAD-B1EA-0EAC-1EC79CBE3F95}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Core", "src\HarvestHub.Services.Fields.Core\HarvestHub.Services.Fields.Core.csproj", "{FF9B844D-E8C1-967B-DFED-349D2997B495}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Host", "src\HarvestHub.Services.Fields.Host\HarvestHub.Services.Fields.Host.csproj", "{754BEEC1-FF76-F35A-8465-BA77B3328153}"
@@ -33,10 +31,6 @@ Global
 		{01FC2E13-5C64-2BC0-7BFF-8941C90AF108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01FC2E13-5C64-2BC0-7BFF-8941C90AF108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01FC2E13-5C64-2BC0-7BFF-8941C90AF108}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1ABB0C0A-ABAD-B1EA-0EAC-1EC79CBE3F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1ABB0C0A-ABAD-B1EA-0EAC-1EC79CBE3F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1ABB0C0A-ABAD-B1EA-0EAC-1EC79CBE3F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1ABB0C0A-ABAD-B1EA-0EAC-1EC79CBE3F95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF9B844D-E8C1-967B-DFED-349D2997B495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF9B844D-E8C1-967B-DFED-349D2997B495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF9B844D-E8C1-967B-DFED-349D2997B495}.Release|Any CPU.ActiveCfg = Release|Any CPU
