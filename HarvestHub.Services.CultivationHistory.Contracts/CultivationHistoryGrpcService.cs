@@ -1,7 +1,7 @@
-﻿using CultivationHistory;
+﻿using CultivationHistoryRPC;
 using Grpc.Core;
 
-namespace HarvestHub.Services.CultivationHistory.Contracts
+namespace HarvestHub.Services.CultivationHistories.Contracts
 {
     public class CultivationHistoryGrpcService : CultivationHistoryService.CultivationHistoryServiceBase
     {

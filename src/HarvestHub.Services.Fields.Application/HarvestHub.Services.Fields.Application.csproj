@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\HarvestHub.Services.CultivationHistory.Contracts\HarvestHub.Services.CultivationHistories.Contracts.csproj" />
     <ProjectReference Include="..\HarvestHub.Services.Fields.Core\HarvestHub.Services.Fields.Core.csproj" />
     <ProjectReference Include="..\HarvestHub.Services.Fields.Shared\HarvestHub.Services.Fields.Shared.csproj" />
     <ProjectReference Include="..\HarvestHub.Services.Users.Shared\HarvestHub.Services.Users.Shared.csproj" />

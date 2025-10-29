@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Users.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Shared", "src\HarvestHub.Services.Fields.Shared\HarvestHub.Services.Fields.Shared.csproj", "{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.CultivationHistory.Contracts", "HarvestHub.Services.CultivationHistory.Contracts\HarvestHub.Services.CultivationHistory.Contracts.csproj", "{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.CultivationHistories.Contracts", "HarvestHub.Services.CultivationHistory.Contracts\HarvestHub.Services.CultivationHistories.Contracts.csproj", "{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
