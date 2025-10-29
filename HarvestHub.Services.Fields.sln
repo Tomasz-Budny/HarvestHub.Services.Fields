@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Host", "src\HarvestHub.Services.Fields.Host\HarvestHub.Services.Fields.Host.csproj", "{754BEEC1-FF76-F35A-8465-BA77B3328153}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Notifications.Shared", "src\HarvestHub.Services.Notifications.Shared\HarvestHub.Services.Notifications.Shared.csproj", "{CC7838D8-0C74-6FDE-D56C-8347205ED462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Users.Shared", "src\HarvestHub.Services.Users.Shared\HarvestHub.Services.Users.Shared.csproj", "{7B2A2746-585C-3070-4277-DFBD422D9F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Shared", "src\HarvestHub.Services.Fields.Shared\HarvestHub.Services.Fields.Shared.csproj", "{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{754BEEC1-FF76-F35A-8465-BA77B3328153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754BEEC1-FF76-F35A-8465-BA77B3328153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754BEEC1-FF76-F35A-8465-BA77B3328153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7838D8-0C74-6FDE-D56C-8347205ED462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7838D8-0C74-6FDE-D56C-8347205ED462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7838D8-0C74-6FDE-D56C-8347205ED462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7838D8-0C74-6FDE-D56C-8347205ED462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2A2746-585C-3070-4277-DFBD422D9F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2A2746-585C-3070-4277-DFBD422D9F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2A2746-585C-3070-4277-DFBD422D9F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2A2746-585C-3070-4277-DFBD422D9F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

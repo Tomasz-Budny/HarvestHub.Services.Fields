@@ -14,6 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HarvestHub.Services.Fields.Core\HarvestHub.Services.Fields.Core.csproj" />
+    <ProjectReference Include="..\HarvestHub.Services.Fields.Shared\HarvestHub.Services.Fields.Shared.csproj" />
+    <ProjectReference Include="..\HarvestHub.Services.Users.Shared\HarvestHub.Services.Users.Shared.csproj" />
   </ItemGroup>
 
 </Project>
