@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "CultivationHistory";
+
+package cultivationhistory;
+
+import "google/protobuf/empty.proto";
+
+service CultivationHistoryService {
+  rpc CreateCultivationHistory (CreateCultivationHistoryRequest) returns (google.protobuf.Empty);
+  rpc DeleteCultivationHistory (DeleteCultivationHistoryRequest) returns (google.protobuf.Empty);
+}
+
+message CreateCultivationHistoryRequest {
+  string fieldId = 1;
+}
+
+message DeleteCultivationHistoryRequest {
+  string fieldId = 1;
+}

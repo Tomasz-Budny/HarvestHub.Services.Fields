@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Users.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.Fields.Shared", "src\HarvestHub.Services.Fields.Shared\HarvestHub.Services.Fields.Shared.csproj", "{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvestHub.Services.CultivationHistory.Contracts", "HarvestHub.Services.CultivationHistory.Contracts\HarvestHub.Services.CultivationHistory.Contracts.csproj", "{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53C40ACF-8CA4-CAFD-CC58-48ED8EFC2A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE0752D-68AE-4C2E-A8DD-7D934560C9DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
