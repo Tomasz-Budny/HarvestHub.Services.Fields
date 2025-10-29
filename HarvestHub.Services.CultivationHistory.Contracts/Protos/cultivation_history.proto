@@ -4,11 +4,9 @@ option csharp_namespace = "CultivationHistory";
 
 package cultivationhistory;
 
-import "google/protobuf/empty.proto";
-
 service CultivationHistoryService {
-  rpc CreateCultivationHistory (CreateCultivationHistoryRequest) returns (google.protobuf.Empty);
-  rpc DeleteCultivationHistory (DeleteCultivationHistoryRequest) returns (google.protobuf.Empty);
+  rpc CreateCultivationHistory (CreateCultivationHistoryRequest) returns (CreateCultivationHistoryReply);
+  rpc DeleteCultivationHistory (DeleteCultivationHistoryRequest) returns (DeleteCultivationHistoryReply);
 }
 
 message CreateCultivationHistoryRequest {
@@ -17,4 +15,10 @@ message CreateCultivationHistoryRequest {
 
 message DeleteCultivationHistoryRequest {
   string fieldId = 1;
+}
+
+message CreateCultivationHistoryReply {
+}
+
+message DeleteCultivationHistoryReply {
 }
